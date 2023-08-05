@@ -1,8 +1,60 @@
 <!DOCTYPE html>
 <html>
-<title> another way </title>
-<body style="background-color:#3d5a48;"
+<head>
+    <style>
+        html, body, .container {
+            height: 100%;
+        }
 
+        body {
+            background-color: #3d5a48;
+            margin: 0;
+        }
+
+        .container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #e0bdc1;
+        }
+
+        @font-face {
+            font-family: customFont;
+            src: url("https://spiritofliberation.co.uk/AW/font.ttf");
+        }
+
+        h1 {
+            font-family: customFont;
+            font-size: 24px; /* Base font size, adjust as needed */
+        }
+
+        @media screen and (max-width: 767px) {
+            /* Adjust font size for mobile devices */
+            h1 {
+                font-size: 42px;
+            }
+        }
+
+        @media screen and (min-width: 768px) {
+            /* Adjust font size for larger screens (e.g., tablets) */
+            h1 {
+                font-size: 36px;
+            }
+        }
+
+        @media screen and (min-width: 1200px) {
+            /* Adjust font size for even larger screens (e.g., desktops) */
+            h1 {
+                font-size: 48px;
+            }
+        }
+    </style>
+    <link rel="icon" href="https://spiritofliberation.co.uk/AW/favicon.ico" type="image/x-icon">
+    <title>Another Way</title>
+</head>
+<body>
+    <div class="container">
+        <h1>COMING SOON</h1>
+    </div>
 </body>
 </html>
-
